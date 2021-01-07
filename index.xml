@@ -1,22 +1,116 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Academic</title>
-    <link>/</link>
-      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    <description>Academic</description>
+    <title>Anatolii Cherednichenko</title>
+    <link>https://d351d3r.github.io/</link>
+      <atom:link href="https://d351d3r.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <description>Anatolii Cherednichenko</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
-      <title>Academic</title>
-      <link>/</link>
+      <url>https://d351d3r.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Anatolii Cherednichenko</title>
+      <link>https://d351d3r.github.io/</link>
     </image>
     
     <item>
+      <title>Academic Template</title>
+      <link>https://d351d3r.github.io/disabled_content/demo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://d351d3r.github.io/disabled_content/demo/</guid>
+      <description>&lt;h2 id=&#34;-welcome-to-the-academic-template&#34;&gt;👋 Welcome to the Academic Template&lt;/h2&gt;
+&lt;p&gt;The Wowchemy &lt;strong&gt;Academic Resumé Template&lt;/strong&gt; for Hugo empowers you to create your job-winning online resumé and showcase your academic publications.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://academic-demo.netlify.app&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Check out the latest demo&lt;/a&gt; of what you&amp;rsquo;ll get in less than 10 minutes, or &lt;a href=&#34;https://wowchemy.com/user-stories/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;view the showcase&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Wowchemy&lt;/strong&gt;&lt;/a&gt; makes it easy to create a beautiful website for free. Edit your site in Markdown, Jupyter, or RStudio (via Blogdown), generate it with Hugo, and deploy with GitHub or Netlify. Customize anything on your site with widgets, themes, and language packs.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;👉 &lt;a href=&#34;https://wowchemy.com/docs/install/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Get Started&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;📚 &lt;a href=&#34;https://wowchemy.com/docs/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;View the &lt;strong&gt;documentation&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💬 &lt;a href=&#34;https://discord.gg/z8wNYzb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chat with the &lt;strong&gt;Wowchemy community&lt;/strong&gt;&lt;/a&gt; or &lt;a href=&#34;https://discourse.gohugo.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Hugo community&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🐦 Twitter: &lt;a href=&#34;https://twitter.com/wowchemy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@wowchemy&lt;/a&gt; &lt;a href=&#34;https://twitter.com/GeorgeCushen&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@GeorgeCushen&lt;/a&gt; &lt;a href=&#34;https://twitter.com/search?q=%28%23MadeWithWowchemy%20OR%20%23MadeWithAcademic%29&amp;amp;src=typed_query&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#MadeWithWowchemy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💡 &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Request a &lt;strong&gt;feature&lt;/strong&gt; or report a &lt;strong&gt;bug&lt;/strong&gt; for &lt;em&gt;Wowchemy&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;⬆️ &lt;strong&gt;Updating Wowchemy?&lt;/strong&gt; View the &lt;a href=&#34;https://wowchemy.com/docs/update/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Update Guide&lt;/a&gt; and &lt;a href=&#34;https://wowchemy.com/updates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Release Notes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;crowd-funded-open-source-software&#34;&gt;Crowd-funded open-source software&lt;/h2&gt;
+&lt;p&gt;To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.&lt;/p&gt;
+&lt;h3 id=&#34;-click-here-to-unlock-rewards-with-sponsorshiphttpswowchemycomplans&#34;&gt;&lt;a href=&#34;https://wowchemy.com/plans/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;❤️ Click here to unlock rewards with sponsorship&lt;/a&gt;&lt;/h3&gt;
+&lt;h2 id=&#34;youre-looking-at-a-wowchemy-_widget_&#34;&gt;You&amp;rsquo;re looking at a Wowchemy &lt;em&gt;widget&lt;/em&gt;&lt;/h2&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    &lt;p&gt;This homepage section is an example of adding &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34;&gt;elements&lt;/a&gt; to the &lt;a href=&#34;https://sourcethemes.com/academic/docs/widgets/&#34;&gt;&lt;em&gt;Blank&lt;/em&gt; widget&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Backgrounds can be applied to any section. Here, the &lt;em&gt;background&lt;/em&gt; option is set give a &lt;em&gt;color gradient&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;To remove this section, delete &lt;code&gt;content/home/demo.md&lt;/code&gt;.&lt;/strong&gt;&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;get-inspired&#34;&gt;Get inspired&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/wowchemy/starter-academic/tree/master/exampleSite&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Check out the Markdown files&lt;/a&gt; which power the &lt;a href=&#34;https://academic-demo.netlify.app&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic Demo&lt;/a&gt;, or &lt;a href=&#34;https://wowchemy.com/user-stories/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;view the showcase&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Experience</title>
+      <link>https://d351d3r.github.io/disabled_content/experience/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://d351d3r.github.io/disabled_content/experience/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent Posts</title>
+      <link>https://d351d3r.github.io/disabled_content/posts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://d351d3r.github.io/disabled_content/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://d351d3r.github.io/disabled_content/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://d351d3r.github.io/disabled_content/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>https://d351d3r.github.io/disabled_content/talks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://d351d3r.github.io/disabled_content/talks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent Publications</title>
+      <link>https://d351d3r.github.io/disabled_content/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://d351d3r.github.io/disabled_content/publications/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Quickly discover relevant content by &lt;a href=&#34;./publication/&#34;&gt;filtering publications&lt;/a&gt;.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Popular Topics</title>
+      <link>https://d351d3r.github.io/disabled_content/tags/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://d351d3r.github.io/disabled_content/tags/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://d351d3r.github.io/disabled_content/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://d351d3r.github.io/disabled_content/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Example Talk</title>
-      <link>/talk/example-talk/</link>
+      <link>https://d351d3r.github.io/talk/example-talk/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>/talk/example-talk/</guid>
+      <guid>https://d351d3r.github.io/talk/example-talk/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
@@ -33,10 +127,144 @@
     </item>
     
     <item>
+      <title>Wireguard</title>
+      <link>https://d351d3r.github.io/publication/wireguard/</link>
+      <pubDate>Thu, 10 Sep 2020 21:33:33 +1000</pubDate>
+      <guid>https://d351d3r.github.io/publication/wireguard/</guid>
+      <description>&lt;p&gt;&lt;em&gt;You can also try the silent installation via bash script by angristan:&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;First, get the script and make it executable :&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;# curl -O https://raw.githubusercontent.com/angristan/wireguard-install/master/wireguard-install.sh&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;# chmod +x wireguard-install.sh&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Then run it :&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;# ./wireguard-install.sh&#39;\&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;You can also install OpenVPN:&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;$ wget https://git.io/vpn -O openvpn-install.sh &amp;amp;&amp;amp; bash openvpn-install.sh&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Add the WireGuard PPA (For Ubuntu 18.04 LTS)&lt;/p&gt;
+&lt;p&gt;First, add the WireGuard PPA to the system to configure access to the project’s packages:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;$ sudo add-apt-repository ppa:wireguard/wireguard&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;And press ENTER&lt;/p&gt;
+&lt;p&gt;Once the PPA has been added, update the local package index to pull down&lt;/p&gt;
+&lt;p&gt;information about the newly available packages and then install the&lt;/p&gt;
+&lt;p&gt;WireGuard kernel module and userland components:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;$ sudo apt-get update&lt;/code&gt;
+&lt;code&gt;$ sudo apt-get install wireguard-dkms wireguard-toolslinux-headers-$(uname -r)&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;For Debian:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;# echo &amp;quot;deb http://deb.debian.org/debian/ unstable main&amp;quot; &amp;gt; /etc/apt/sources.list.d/unstable.list&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;# printf &#39;Package: *\nPin: release a=unstable\nPin-Priority: 90\n&#39; &amp;gt; /etc/apt/preferences.d/limit-unstable&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;# apt update&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;# apt install wireguard&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Once everything is ready, check that the module is loaded:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;# modprobe wireguard &amp;amp;&amp;amp; lsmod | grep wireguard&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;wireguard 225280 0
+ip6_udp_tunnel 16384 1 wireguard
+udp_tunnel 16384 1 wireguard
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Creating public and private keys for the server and for the client.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# mkdir ~/wireguard
+
+# cd ~/wireguard
+
+# umask 077
+
+# wg genkey | tee server_private_key | wg pubkey &amp;gt; server_public_key
+
+# wg genkey | tee client_private_key | wg pubkey &amp;gt; client_public_key
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;As a result, we will have four files created:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# cat server_private_key 
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz=
+# cat server_public_key 
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz=
+# cat client_private_key 
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz=
+# cat client_public_key 
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz=
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Enable Forwarding in sysctl.conf:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# nano /etc/sysctl.conf 
+net.ipv4.ip_forward = 1
+# sysctl -p
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Create the /etc/fireguard directory , and in it the /etc/fireguard/wg 0 configuration file.conf with the following content:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# nano /etc/wireguard/wg0.conf 
+[Interface]
+Address = 10.8.0.1/24
+PostUp = iptables -A FORWARD -i %i -j ACCEPT; iptables -A FORWARD -o %i -j ACCEPT; iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+PostDown = iptables -D FORWARD -i %i -j ACCEPT; iptables -D FORWARD -o %i -j ACCEPT; iptables -t nat -D POSTROUTING -o eth0 -j MASQUERADE
+ListenPort = 51820
+PrivateKey = SERVER_PRIVATE_KEY
+
+[Peer]
+PublicKey = CLIENT_PUBLIC_KEY
+AllowedIPs = 10.8.0.2/32
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Of course, instead of SERVER_PRIVATE_KEY and CLIENT_PUBLIC_KEY , we prescribe keys from previously created files . Next, comments on the config:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Address- the address of the wg0 virtual interface on the server.
+PostUp and PostDown-commands that will be executed when enabling and disabling the interface.
+Listen Port — the port where the VPN will work.
+Allowed IPs— virtual IP clients that will connect to our server.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Save changes, make the file available only to root, enable and launch the service:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# chmod 600 /etc/wireguard/wg0.conf
+# systemctl enable wg-quick@wg0.service
+# systemctl restart wg-quick@wg0.service
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Configuring the Wireguard client.&lt;/p&gt;
+&lt;p&gt;Add the Wireguard repository to your list of sources. Apt will then automatically update the package cache.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;$ sudo add-apt-repository ppa:wireguard/wireguard&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Install Wireguard. Package install all necessary dependencies.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;$ sudo apt install wireguard&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Go to the /etc/wireguard directory and create the /etc/wireguard/wg0-client.conf configuration wg0.conf with the following content:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# cd /etc/wireguard
+# nano wg0-client.conf 
+[Interface]
+Address = 10.8.0.2/32
+PrivateKey = CLIENT_PRIVATE_KEY
+DNS = 8.8.8.8
+
+[Peer]
+PublicKey = SERVER_PUBLIC_KEY
+Endpoint = SERVER_REAL_IP:51820
+AllowedIPs = 0.0.0.0/0
+PersistentKeepalive = 21
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;In this case, instead of CLIENT_PRIVATE_KEY and SERVER_PUBLIC_KEY, we substitute the keys generated earlier, and instead of SERVER_REAL_IP, we specify the IP address of our server where the VPN is installed .Save the file, and try to connect with the command wg-quick up wg0-client:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# wg-quick up wg0-client
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;[#] ip link add wg0-client type wireguard
+[#] wg setconf wg0-client /dev/fd/63
+[#] ip address add 10.8.0.2/32 dev wg0-client
+[#] ip link set mtu 1420 dev wg0-client
+[#] ip link set wg0-client up
+[#] mount `8.8.8.8&#39; /etc/resolv.conf
+[#] wg set wg0-client fwmark 51820
+[#] ip -4 route add 0.0.0.0/0 dev wg0-client table 51820
+[#] ip -4 rule add not fwmark 51820 table 51820
+[#] ip -4 rule add table main suppress_prefixlength 0
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We check the connection, and if everything is done correctly, all our traffic will now pass through the VPN server.To disconnect from the VPN, simply run the command wg-quick down wg 0-client:&lt;/p&gt;
+&lt;p&gt;To disconnect from the VPN, simply run the command wg-quick down wg 0-client:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;# wg-quick down wg0-client&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;[#] ip -4 rule delete table 51820
+[#] ip -4 rule delete table main suppress_prefixlength 0
+[#] ip link delete dev wg0-client
+[#] umount /etc/resolv.conf
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If necessary, we can manage the service via systemd:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;# systemctl restart wg-quick@wg0-client.service&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;We can download the Wireguard app for Android:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://f-droid.org/en/packages/com.wireguard.android/&#34;&gt;https://f-droid.org/en/packages/com.wireguard.android/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Slides</title>
-      <link>/slides/example/</link>
+      <link>https://d351d3r.github.io/slides/example/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>/slides/example/</guid>
+      <guid>https://d351d3r.github.io/slides/example/</guid>
       <description>&lt;h1 id=&#34;create-slides-in-markdown-with-wowchemy&#34;&gt;Create slides in Markdown with Wowchemy&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://wowchemy.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy&lt;/a&gt; | &lt;a href=&#34;https://owchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
@@ -163,9 +391,9 @@ Three
     
     <item>
       <title>Example Project</title>
-      <link>/project/example/</link>
+      <link>https://d351d3r.github.io/project/example/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/example/</guid>
+      <guid>https://d351d3r.github.io/project/example/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
 &lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
 &lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
@@ -176,9 +404,9 @@ Three
     
     <item>
       <title>Welcome to Wowchemy, the website builder for Hugo</title>
-      <link>/post/getting-started/</link>
+      <link>https://d351d3r.github.io/post/getting-started/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/post/getting-started/</guid>
+      <guid>https://d351d3r.github.io/post/getting-started/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;The Wowchemy website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site&lt;/li&gt;
@@ -270,9 +498,9 @@ Three
     
     <item>
       <title>An example conference paper</title>
-      <link>/publication/example/</link>
+      <link>https://d351d3r.github.io/disabled_content/example/</link>
       <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>/publication/example/</guid>
+      <guid>https://d351d3r.github.io/disabled_content/example/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.

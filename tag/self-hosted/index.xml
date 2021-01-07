@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>self-hosted | Anatolii Cherednichenko</title>
+    <link>https://d351d3r.github.io/tag/self-hosted/</link>
+      <atom:link href="https://d351d3r.github.io/tag/self-hosted/index.xml" rel="self" type="application/rss+xml" />
+    <description>self-hosted</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 10 Sep 2020 21:33:33 +1000</lastBuildDate>
+    <image>
+      <url>https://d351d3r.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>self-hosted</title>
+      <link>https://d351d3r.github.io/tag/self-hosted/</link>
+    </image>
+    
+    <item>
+      <title>Wireguard</title>
+      <link>https://d351d3r.github.io/publication/wireguard/</link>
+      <pubDate>Thu, 10 Sep 2020 21:33:33 +1000</pubDate>
+      <guid>https://d351d3r.github.io/publication/wireguard/</guid>
+      <description>&lt;p&gt;&lt;em&gt;You can also try the silent installation via bash script by angristan:&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;First, get the script and make it executable :&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;# curl -O https://raw.githubusercontent.com/angristan/wireguard-install/master/wireguard-install.sh&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;# chmod +x wireguard-install.sh&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Then run it :&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;# ./wireguard-install.sh&#39;\&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;You can also install OpenVPN:&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;$ wget https://git.io/vpn -O openvpn-install.sh &amp;amp;&amp;amp; bash openvpn-install.sh&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Add the WireGuard PPA (For Ubuntu 18.04 LTS)&lt;/p&gt;
+&lt;p&gt;First, add the WireGuard PPA to the system to configure access to the project’s packages:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;$ sudo add-apt-repository ppa:wireguard/wireguard&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;And press ENTER&lt;/p&gt;
+&lt;p&gt;Once the PPA has been added, update the local package index to pull down&lt;/p&gt;
+&lt;p&gt;information about the newly available packages and then install the&lt;/p&gt;
+&lt;p&gt;WireGuard kernel module and userland components:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;$ sudo apt-get update&lt;/code&gt;
+&lt;code&gt;$ sudo apt-get install wireguard-dkms wireguard-toolslinux-headers-$(uname -r)&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;For Debian:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;# echo &amp;quot;deb http://deb.debian.org/debian/ unstable main&amp;quot; &amp;gt; /etc/apt/sources.list.d/unstable.list&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;# printf &#39;Package: *\nPin: release a=unstable\nPin-Priority: 90\n&#39; &amp;gt; /etc/apt/preferences.d/limit-unstable&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;# apt update&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;# apt install wireguard&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Once everything is ready, check that the module is loaded:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;# modprobe wireguard &amp;amp;&amp;amp; lsmod | grep wireguard&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;wireguard 225280 0
+ip6_udp_tunnel 16384 1 wireguard
+udp_tunnel 16384 1 wireguard
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Creating public and private keys for the server and for the client.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# mkdir ~/wireguard
+
+# cd ~/wireguard
+
+# umask 077
+
+# wg genkey | tee server_private_key | wg pubkey &amp;gt; server_public_key
+
+# wg genkey | tee client_private_key | wg pubkey &amp;gt; client_public_key
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;As a result, we will have four files created:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# cat server_private_key 
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz=
+# cat server_public_key 
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz=
+# cat client_private_key 
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz=
+# cat client_public_key 
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz=
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Enable Forwarding in sysctl.conf:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# nano /etc/sysctl.conf 
+net.ipv4.ip_forward = 1
+# sysctl -p
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Create the /etc/fireguard directory , and in it the /etc/fireguard/wg 0 configuration file.conf with the following content:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# nano /etc/wireguard/wg0.conf 
+[Interface]
+Address = 10.8.0.1/24
+PostUp = iptables -A FORWARD -i %i -j ACCEPT; iptables -A FORWARD -o %i -j ACCEPT; iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+PostDown = iptables -D FORWARD -i %i -j ACCEPT; iptables -D FORWARD -o %i -j ACCEPT; iptables -t nat -D POSTROUTING -o eth0 -j MASQUERADE
+ListenPort = 51820
+PrivateKey = SERVER_PRIVATE_KEY
+
+[Peer]
+PublicKey = CLIENT_PUBLIC_KEY
+AllowedIPs = 10.8.0.2/32
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Of course, instead of SERVER_PRIVATE_KEY and CLIENT_PUBLIC_KEY , we prescribe keys from previously created files . Next, comments on the config:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Address- the address of the wg0 virtual interface on the server.
+PostUp and PostDown-commands that will be executed when enabling and disabling the interface.
+Listen Port — the port where the VPN will work.
+Allowed IPs— virtual IP clients that will connect to our server.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Save changes, make the file available only to root, enable and launch the service:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# chmod 600 /etc/wireguard/wg0.conf
+# systemctl enable wg-quick@wg0.service
+# systemctl restart wg-quick@wg0.service
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Configuring the Wireguard client.&lt;/p&gt;
+&lt;p&gt;Add the Wireguard repository to your list of sources. Apt will then automatically update the package cache.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;$ sudo add-apt-repository ppa:wireguard/wireguard&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Install Wireguard. Package install all necessary dependencies.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;$ sudo apt install wireguard&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Go to the /etc/wireguard directory and create the /etc/wireguard/wg0-client.conf configuration wg0.conf with the following content:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# cd /etc/wireguard
+# nano wg0-client.conf 
+[Interface]
+Address = 10.8.0.2/32
+PrivateKey = CLIENT_PRIVATE_KEY
+DNS = 8.8.8.8
+
+[Peer]
+PublicKey = SERVER_PUBLIC_KEY
+Endpoint = SERVER_REAL_IP:51820
+AllowedIPs = 0.0.0.0/0
+PersistentKeepalive = 21
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;In this case, instead of CLIENT_PRIVATE_KEY and SERVER_PUBLIC_KEY, we substitute the keys generated earlier, and instead of SERVER_REAL_IP, we specify the IP address of our server where the VPN is installed .Save the file, and try to connect with the command wg-quick up wg0-client:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# wg-quick up wg0-client
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;[#] ip link add wg0-client type wireguard
+[#] wg setconf wg0-client /dev/fd/63
+[#] ip address add 10.8.0.2/32 dev wg0-client
+[#] ip link set mtu 1420 dev wg0-client
+[#] ip link set wg0-client up
+[#] mount `8.8.8.8&#39; /etc/resolv.conf
+[#] wg set wg0-client fwmark 51820
+[#] ip -4 route add 0.0.0.0/0 dev wg0-client table 51820
+[#] ip -4 rule add not fwmark 51820 table 51820
+[#] ip -4 rule add table main suppress_prefixlength 0
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We check the connection, and if everything is done correctly, all our traffic will now pass through the VPN server.To disconnect from the VPN, simply run the command wg-quick down wg 0-client:&lt;/p&gt;
+&lt;p&gt;To disconnect from the VPN, simply run the command wg-quick down wg 0-client:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;# wg-quick down wg0-client&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;[#] ip -4 rule delete table 51820
+[#] ip -4 rule delete table main suppress_prefixlength 0
+[#] ip link delete dev wg0-client
+[#] umount /etc/resolv.conf
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If necessary, we can manage the service via systemd:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;# systemctl restart wg-quick@wg0-client.service&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;We can download the Wireguard app for Android:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://f-droid.org/en/packages/com.wireguard.android/&#34;&gt;https://f-droid.org/en/packages/com.wireguard.android/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
